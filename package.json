@@ -1,0 +1,29 @@
+{
+  "name": "elementary-audio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx mix watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@elemaudio/core": "^0.11.5",
+    "browser-sync": "^2.27.7",
+    "browser-sync-webpack-plugin": "^2.3.0",
+    "laravel-mix": "^6.0.42",
+    "lodash": "^4.17.21",
+    "pug": "^3.0.2",
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.49.7",
+    "sass-loader": "^12.5.0",
+    "vue": "^3.2.31",
+    "vue-loader": "^16.8.3",
+    "vue-pug-loader": "^1.1.26"
+  },
+  "devDependencies": {
+    "ts-loader": "^9.2.8",
+    "typescript": "^4.6.2"
+  }
+}
